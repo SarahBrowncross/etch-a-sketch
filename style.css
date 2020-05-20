@@ -1,0 +1,10 @@
+.square {
+    background-color: #555;
+    transition: background-color 0.5s;
+}
+
+#container {
+    display: grid;
+    height: 960px;
+    width: 960px;
+ }
