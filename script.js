@@ -1,6 +1,6 @@
 const container = document.querySelector('#container');
 const refresh = document.getElementById('button');
-generateGrid(16);
+generateGrid(50);
 
 function generateGrid(side) {
 
@@ -36,5 +36,5 @@ function onSquareHover(event) {
     event.target.style.backgroundColor = 'orange';
     setTimeout(function () {
         event.target.style.backgroundColor = "";
-    }, 500);
+    }, 5000);
 }
